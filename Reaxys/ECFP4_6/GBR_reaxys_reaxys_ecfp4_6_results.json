@@ -1,0 +1,31 @@
+{
+    "model_name": "GBR",
+    "train_dataset_name": "reaxys",
+    "test_dataset_name": "reaxys",
+    "r2": 0.3758008508898536,
+    "rmse": 18.64486508548725,
+    "mae": 14.808049846699197,
+    "best_params": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.01,
+        "loss": "squared_error",
+        "max_depth": 7,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 1000,
+        "n_iter_no_change": null,
+        "random_state": 42,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+    }
+}

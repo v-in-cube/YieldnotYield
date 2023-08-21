@@ -1,0 +1,27 @@
+{
+    "model_name": "RFR",
+    "train_dataset_name": "hte",
+    "test_dataset_name": "hte",
+    "r2": 0.9255123248252882,
+    "rmse": 7.423941495724378,
+    "mae": 4.716337756790966,
+    "best_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 80,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 800,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    }
+}

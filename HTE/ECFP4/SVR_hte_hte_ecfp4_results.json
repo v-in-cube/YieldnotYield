@@ -1,0 +1,21 @@
+{
+    "model_name": "SVR",
+    "train_dataset_name": "hte",
+    "test_dataset_name": "hte",
+    "r2": 0.8199082990018657,
+    "rmse": 11.54354448542188,
+    "mae": 8.575983629935674,
+    "best_params": {
+        "C": 10,
+        "cache_size": 200,
+        "coef0": 0.0,
+        "degree": 3,
+        "epsilon": 0.001,
+        "gamma": "scale",
+        "kernel": "poly",
+        "max_iter": -1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    }
+}
