@@ -1,0 +1,20 @@
+{
+    "model_name": "SVR",
+    "test_dataset_name": "az_eln",
+    "r2": -0.348121428948474,
+    "rmse": 33.784920681496494,
+    "mae": 28.440117965953178,
+    "best_params": {
+        "C": 10,
+        "cache_size": 200,
+        "coef0": 0.0,
+        "degree": 3,
+        "epsilon": 0.001,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "max_iter": -1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    }
+}

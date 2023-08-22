@@ -1,0 +1,27 @@
+{
+    "model_name": "RFR",
+    "train_dataset_name": "uspto",
+    "test_dataset_name": "uspto",
+    "r2": 0.23284435208964593,
+    "rmse": 22.83591363678271,
+    "mae": 18.576547356045847,
+    "best_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 80,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 5,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 600,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    }
+}

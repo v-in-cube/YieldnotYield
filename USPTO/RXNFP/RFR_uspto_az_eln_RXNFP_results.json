@@ -1,0 +1,26 @@
+{
+    "model_name": "RFR",
+    "test_dataset_name": "az_eln",
+    "r2": -0.3139523180361019,
+    "rmse": 33.35402119017776,
+    "mae": 28.079356790927445,
+    "best_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 5,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 400,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    }
+}

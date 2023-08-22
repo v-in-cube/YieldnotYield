@@ -1,0 +1,21 @@
+{
+    "model_name": "SVR",
+    "train_dataset_name": "uspto",
+    "test_dataset_name": "uspto",
+    "r2": 0.22605341785344168,
+    "rmse": 22.936763776709277,
+    "mae": 18.718136928260865,
+    "best_params": {
+        "C": 10,
+        "cache_size": 200,
+        "coef0": 0.0,
+        "degree": 3,
+        "epsilon": 0.1,
+        "gamma": "scale",
+        "kernel": "poly",
+        "max_iter": -1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    }
+}

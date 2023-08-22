@@ -1,0 +1,20 @@
+{
+    "model_name": "SVR",
+    "test_dataset_name": "hte_bh",
+    "r2": -0.6489671687725707,
+    "rmse": 35.04078265160848,
+    "mae": 30.474636735143967,
+    "best_params": {
+        "C": 10,
+        "cache_size": 200,
+        "coef0": 0.0,
+        "degree": 3,
+        "epsilon": 0.1,
+        "gamma": "scale",
+        "kernel": "poly",
+        "max_iter": -1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    }
+}

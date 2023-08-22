@@ -1,0 +1,31 @@
+{
+    "model_name": "GBR",
+    "train_dataset_name": "uspto",
+    "test_dataset_name": "uspto",
+    "r2": 0.19349101362104215,
+    "rmse": 23.41430406412718,
+    "mae": 19.319367374137492,
+    "best_params": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 200,
+        "n_iter_no_change": null,
+        "random_state": 42,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+    }
+}
